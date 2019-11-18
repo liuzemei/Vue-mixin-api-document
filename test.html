@@ -1,0 +1,32 @@
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+</head>
+
+<body>
+
+    <form action="https://assets-mixin-one.s3.cn-north-1.amazonaws.com.cn/" method="post" enctype="multipart/form-data">
+        Key to upload:
+        <input type="input" name="key"
+            value="mixin/attachments/1573997002-c35757c5450d016f4716e87055cf3fbd7cd44f0b8de85bc0c3f17d43ed7cb61e" /><br />
+        <input type="hidden" name="acl" value="public-read" />
+        Content-Type:
+        <!-- <input type="input" name="Content-Type" value="image/jpeg" /><br /> -->
+        <input type="hidden" name="x-amz-meta-uuid" value="14365123651274" />
+        <input type="hidden" name="X-Amz-Credential" value="AKIAPKOJS6Y7LAXBVZNA/20191117/cn-north-1/s3/aws4_request" />
+        <input type="hidden" name="X-Amz-Algorithm" value="AWS4-HMAC-SHA256" />
+        <input type="hidden" name="X-Amz-Date" value="20191117T132322Z" />
+        <br />
+        Tags for File:
+        <input type="hidden" name="X-Amz-Signature"
+            value="8a89f4b84c22e071bcd29d71c1207af613284b053222e1f8f3e529d0cc44fc9d" />
+        File:
+        <input type="file" name="file" /> <br />
+        <!-- The elements after this will be ignored -->
+        <input type="submit" name="submit" value="Upload to Amazon S3" />
+    </form>
+
+</html>
