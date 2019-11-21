@@ -73,13 +73,13 @@ export default {
     data() {
         return {
             keyForm: {
-                pin: '506278',
-                client_id: '2cb83f7a-71cc-4316-b411-0a92d0fb569e',
-                session_id: '600aaa3e-8543-4efc-b1d7-5e2c6cb817fb',
+                pin: '',
+                client_id: '',
+                session_id: '',
                 pin_token:
-                    'fCgbXM6jGwGuf8z9Ikmn2ghDGUyVJdrJwjNXVU5WAlARyYRwXz6uhDvkBAp17XchzxxjjmYM20oNDVvxrejTf9jMFwmjjgfjW+qUCiU5Yh/2FCnRZnLCd7Xst4GJ2IlgElZsSe+7xShC+UF/fmw8OyT7S2u1nKl7IvcUz1M+anc=',
+                    '',
                 private_key:
-                    '-----BEGIN RSA PRIVATE KEY-----\r\nMIICXQIBAAKBgQCYFIgt0bek03sgIJZdN0NJ5UEmdsUbf5TNKWmMmYyQId8p/QAr\r\nq9dWafe2eCJnUIRrxe3dGsCw8X/wHF8WsU+yJD72sw42jp78Rt/6oeP+V5pvWOhb\r\n51HameTtdcAnNalj/7fxPHuKNSUvHF2AGKD7/fvvGSbPFxkdqaoXqbZUrQIDAQAB\r\nAoGAdiUVOgs/UKQedfH6/kWtV53rRBdmvxsZHV07q0eqZFp8BSGQXVztOCuwjie8\r\nCmkJxrQIOwnKgmvKyV0xHe73iqlIqRTrrp2qg93Gh9FGoiAY55Kq7VHqsJdhKQhP\r\nYJy+O8A9Oc11oaX2lInPGX8S5XMiovJDYfYKDRnYx60aFT0CQQDMptZFrWvxvmGD\r\nUWdHJnuI9zQHpVyEqU2HIFpSt6rZSKQVuXGmXJt4/d5OU1XssUZQcrtwaToeG1rZ\r\n5gS0OhrbAkEAvjztuuyINr/Nkn60I6JWLaj9moeoVALhPqpJC07gMJkp1d3ODs9n\r\n/ym94mP94etkkrXL3iscGRN3ikgyci4xFwJBALNLo8Rt2Hl2CyaqheovC+IGef4M\r\n4Q6U6YhuTtPTeApfeupRiwFudwO8nyxOFKSG94x5yEAG4NUJsEHhJNPlaCsCQAOO\r\nTf9FdpJXaXdIiQN1gFjgJMVjrcDMQPuT4UOl2Mjvw/lsaPKb69y4IgV+SvuTE9Eu\r\nNr5TXfYWCBD8onzB4kcCQQCILAcj19F0dG7DJPA9VeuseOhZOlqGcxADCAHHp8Pq\r\no8lw6zKKLVF3MYJhEZF/8hD8JF/czAYepkcCySUuJQRy\r\n-----END RSA PRIVATE KEY-----\r\n'
+                    ''
             },
             isFileUpload: false
         };
