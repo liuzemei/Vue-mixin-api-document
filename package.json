@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "base64url": "^3.0.0",
     "bignumber.js": "^7.2.1",
     "bugsnag-js": "^4.7.3",
